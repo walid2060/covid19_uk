@@ -1,5 +1,6 @@
 import streamlit as st
 from sklearn.preprocessing import PolynomialFeatures
+from keras.models import load_model
 
 import numpy as np
 import pandas as pd
